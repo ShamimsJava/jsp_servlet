@@ -16,6 +16,16 @@
         <servlet-name>FrontController</servlet-name>
         <servlet-class>com.shamim.webapplication.FrontController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Servlet1</servlet-name>
+        <servlet-class>com.shamim.servlet.Servlet1</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet2</servlet-name>
+        <servlet-class>com.shamim.servlet.Servlet2</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
     <servlet-mapping>
         <servlet-name>GenericServletExample</servlet-name>
         <url-pattern>/GenericServletExample</url-pattern>
@@ -31,6 +41,14 @@
     <servlet-mapping>
         <servlet-name>FrontController</servlet-name>
         <url-pattern>/FrontController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet1</servlet-name>
+        <url-pattern>/Servlet1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet2</servlet-name>
+        <url-pattern>/Servlet2</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -1,19 +1,17 @@
 <%-- 
-    Document   : date
-    Created on : Dec 14, 2017, 8:27:52 PM
+    Document   : index
+    Created on : Dec 16, 2017, 7:18:46 PM
     Author     : Shamim
 --%>
 
-<%@page import="java.util.Date"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Book page 15</title>
+        <title>JSP Page</title>
     </head>
     <body>
-        <h2>Greetings!</h2>
-        <p>The Current time is <%= new Date()%> precisely</p>
+        <h1>Hello World!</h1>
     </body>
 </html>
